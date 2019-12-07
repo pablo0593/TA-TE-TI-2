@@ -1,9 +1,9 @@
 //Instalar el service worker.
-self.addEventListener("intall",evt => {console.log("El service worked se instalo.")});
+self.addEventListener("intall",evt => {console.log("El service worked se instalo.");});
 
 
 //Activar el service worker.
-
+self.addEventListener("activate",evt => {console.log("El service workerse activo.");})
 
 //Eventos Fetch (fetch request o pedido de busqueda).
 
